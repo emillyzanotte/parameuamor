@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cartinhas do Amor 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>💌 Cartinhas do Amor 💌</h1>
+  <p class="mensagem">Oi, meu amor! Aqui estão suas cartinhas...<br>
+    Uma por dia, combinado? ✨</p>
+
+    <div class="cartas-container">
+      <div>
+        <button class="carta" id="carta1" onclick="abrirCarta(1)">📩 Carta 1</button>
+        <div class="timer" id="timer1"></div>
+      </div>
+      <div>
+        <button class="carta" id="carta2" onclick="abrirCarta(2)" disabled>📩 Carta 2</button>
+        <div class="timer" id="timer2"></div>
+      </div>
+      <div>
+        <button class="carta" id="carta3" onclick="abrirCarta(3)" disabled>📩 Carta 3</button>
+        <div class="timer" id="timer3"></div>
+      </div>
+    </div>
+    
+    
+
+  <div id="conteudo-carta" class="mensagem-carta"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

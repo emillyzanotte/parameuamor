@@ -1,0 +1,84 @@
+body {
+  background: linear-gradient(to right, #ffdbe6, #ffe9f0);
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  padding: 40px;
+  color: #5b2c6f;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #d6336c;
+}
+
+.mensagem {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.cartas-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.carta {
+  padding: 15px 25px;
+  background-color: #ff69b4;
+  color: white;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.carta:disabled {
+  background-color: #f2a2c2;
+  cursor: not-allowed;
+}
+
+.carta:hover:not(:disabled) {
+  background-color: #e75480;
+}
+
+.mensagem-carta {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #fff;
+  color: #5b2c6f;
+  border-radius: 12px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  font-size: 1.2em;
+  display: none;
+}
+
+.texto-carta {
+  margin-bottom: 15px;
+}
+
+.mensagem-carta a {
+  color: #d6336c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.foto-carta {
+  margin-top: 20px;
+  max-width: 90%;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+
+.timer {
+  margin-top: 8px;
+  font-size: 1em;
+  color: #8b2c5f;
+  font-weight: bold;
+}
+
